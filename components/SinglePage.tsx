@@ -47,7 +47,7 @@ export const SinglePage = memo(
           <div className="flex flex-col items-center justify-center h-full px-4 pb-3 sm:px-6 pt-8">
             <Loading></Loading>
             <div className="text-lg text-center text-gray-900 dark:text-gray-200">
-              It can take a few seconds for documentation to be generated.
+              正在生成文档，这大概会花费几秒钟的时间。
             </div>
           </div>
         </Wrapper>

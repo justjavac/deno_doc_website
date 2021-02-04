@@ -22,7 +22,7 @@ const Header = () => {
                 deno doc
               </div>
               <div className="font-normal text-gray-900 dark:text-gray-200 text-sm sm:text-lg leading-tight tracking-tight">
-                Documentation Generator
+                文档生成与查看器
               </div>
             </div>
           </a>
@@ -39,7 +39,7 @@ const Header = () => {
               fill="none"
               viewBox="0 0 24 24"
             >
-              <title>Menu | Deno</title>
+              <title>菜单 | Deno</title>
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -54,17 +54,17 @@ const Header = () => {
             href="https://deno.land/"
             className="font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 transition duration-150 ease-in-out"
           >
-            Home
+            首页
           </a>
           <a
             href="https://deno.land/manual"
             className="ml-10 font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 transition duration-150 ease-in-out"
           >
-            Manual
+            手册
           </a>
           <Link href="/about">
             <a className="ml-10 font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 transition duration-150 ease-in-out">
-              About
+              关于
             </a>
           </Link>
           <a
@@ -113,7 +113,7 @@ const Header = () => {
                         deno doc
                       </div>
                       <div className="font-normal text-gray-900 dark:text-gray-200 text-sm sm:text-lg leading-tight tracking-tight">
-                        Documentation Generator
+                        文档生成与查看器
                       </div>
                     </div>
                   </a>
@@ -145,17 +145,17 @@ const Header = () => {
                   href="https://deno.land/"
                   className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 hover:bg-gray-50 dark:hover:bg-light-black-900 focus:outline-none focus:text-gray-900 focus:bg-gray-50 dark:focus:bg-light-black-900 transition duration-150 ease-in-out"
                 >
-                  Home
+                  首页
                 </a>
                 <a
                   href="https://deno.land/manual"
                   className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 hover:bg-gray-50 dark:hover:bg-light-black-900 focus:outline-none focus:text-gray-900 focus:bg-gray-50 dark:focus:bg-light-black-900 transition duration-150 ease-in-out"
                 >
-                  Manual
+                  手册
                 </a>
                 <Link href="/about">
                   <a className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 hover:bg-gray-50 dark:hover:bg-light-black-900 focus:outline-none focus:text-gray-900 focus:bg-gray-50 dark:focus:bg-light-black-900 transition duration-150 ease-in-out">
-                    About
+                    关于
                   </a>
                 </Link>
               </div>

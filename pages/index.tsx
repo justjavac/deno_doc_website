@@ -30,11 +30,10 @@ function Home() {
   return (
     <>
       <Head>
-        <title>deno doc</title>
+        <title>deno 文档</title>
         <meta
           name="description"
-          content="Automatic documentation generator for Deno, a secure runtime for
-              JavaScript and TypeScript."
+          content="Deno 文档查看器，可以自动生成 Deno 文档。"
         />
       </Head>
       <div className="bg-white dark:bg-light-black-800">
@@ -47,17 +46,17 @@ function Home() {
                   type="submit"
                   className="w-full flex justify-center py-2 px-4 border border-gray-300 dark:border-light-black-700 dark:hover:border-light-black-600 text-md font-medium rounded-md text-gray-700 dark:text-gray-200 bg-gray-100 dark:bg-light-black-800 hover:text-gray-500 dark:hover:text-gray-100 hover:bg-gray-50 dark:hover:bg-light-black-700 focus:outline-none focus:shadow-outline-gray focus:border-gray-600 active:bg-gray-100 dark:active:bg-light-black-700 active:text-gray-700 dark:active:text-gray-100 transition duration-150 ease-in-out"
                 >
-                  Deno runtime documentation
+                  Deno runtime 文档
                 </a>
               </Link>
             </span>
             <label className="block text-center text-md leading-6 text-gray-500 dark:text-gray-300 mt-4">
-              or view documentation for
+              或查看其它文档
             </label>
             <div className="mt-4 flex rounded-md shadow-sm w-full">
               <div className="relative flex-grow focus-within:z-10">
                 <label htmlFor="link" className="sr-only">
-                  Source link
+                  源码链接
                 </label>
                 <input
                   id="link"
@@ -77,7 +76,7 @@ function Home() {
                   if (url.length > 0) navigate();
                 }}
               >
-                <span className="mr-2">View</span>{" "}
+                <span className="mr-2">查看</span>{" "}
                 <svg
                   className="h-5 w-5 text-gray-400 dark:text-gray-300"
                   viewBox="0 0 20 20"
@@ -95,17 +94,17 @@ function Home() {
         </div>
         <div className="flex flex-col max-w-screen-sm px-4 py-4 mx-auto sm:px-8 md:px-12 mt-8 mb-16 text-gray-900 dark:text-gray-100">
           <div className="mt-1 py-2">
-            View{" "}
+            查看{" "}
             <code className="py-0.5 px-1 font-mono rounded-sm bg-gray-100 dark:bg-light-black-900 deno-inlinecode">
               --unstable
             </code>{" "}
-            runtime documentation{" "}
+            runtime 文档{" "}
             <Link href="/builtin/[version]" as={`/builtin/unstable`}>
-              <a className="link"> here</a>
+              <a className="link"> 点击此处</a>
             </Link>
             .
           </div>
-          <div className="mt-4 font-bold">Some examples:</div>
+          <div className="mt-4 font-bold">一些示例：</div>
           <ul className="list-disc pl-8 mt-2">
             {examples.map((example) => (
               <li className="py-0.5" key={example}>

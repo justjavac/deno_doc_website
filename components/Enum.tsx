@@ -20,7 +20,7 @@ export function EnumCard({
         <>
           <div className="mt-2">
             <p className="font-medium text-md text-gray-800 dark:text-gray-300">
-              Members
+              成员
             </p>
             {node.enumDef.members.length > 0 ? (
               node.enumDef.members.map((member) => {
@@ -28,7 +28,7 @@ export function EnumCard({
               })
             ) : (
               <div className="text-gray-900 dark:text-gray-200">
-                This enum has no members.
+                该枚举类型没有任何成员。
               </div>
             )}
           </div>

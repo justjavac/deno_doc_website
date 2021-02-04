@@ -48,7 +48,7 @@ export function InterfaceCard({
           {node.interfaceDef.callSignatures.length > 0 ? (
             <div className="mt-2">
               <p className="font-medium text-md text-gray-800 dark:text-gray-300">
-                Call Signatures
+                方法调用签名
               </p>
               {node.interfaceDef.callSignatures.map((node) => {
                 return (
@@ -64,7 +64,7 @@ export function InterfaceCard({
           {node.interfaceDef.properties.length > 0 ? (
             <div className="mt-2">
               <p className="font-medium text-md text-gray-800 dark:text-gray-300">
-                Properties
+                属性
               </p>
               {node.interfaceDef.properties.map((node) => {
                 return (
@@ -80,7 +80,7 @@ export function InterfaceCard({
           {node.interfaceDef.methods.length > 0 ? (
             <div className="mt-2">
               <p className="font-medium text-md text-gray-800 dark:text-gray-300">
-                Methods
+                方法
               </p>
               {node.interfaceDef.methods.map((node) => {
                 return (
@@ -97,7 +97,7 @@ export function InterfaceCard({
           {node.interfaceDef.indexSignatures.length > 0 ? (
             <div className="mt-2">
               <p className="font-medium text-md text-gray-800 dark:text-gray-300">
-                Index Signatures
+                索引签名
               </p>
               {node.interfaceDef.indexSignatures.map((node) => {
                 return (

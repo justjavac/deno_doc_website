@@ -39,30 +39,30 @@ export const Sidebar = ({ groups }: { groups: GroupedNodes }) => {
       <nav className="flex-1 px-4">
         <>
           <SidebarSection
-            title="Functions"
+            title="函数"
             type="function"
             nodes={groups.functions}
           />
           <SidebarSection
-            title="Variables"
+            title="变量"
             type="variable"
             nodes={groups.variables}
           />
           <SidebarSection title="Classes" type="class" nodes={groups.classes} />
           <SidebarSection title="Enums" type="enum" nodes={groups.enums} />
           <SidebarSection
-            title="Interfaces"
+            title="接口"
             type="interface"
             nodes={groups.interfaces}
           />
           <SidebarSection
-            title="Type Aliases"
+            title="类型别名"
             type="typeAlias"
             nodes={groups.typeAliases}
           />
         </>
         <SidebarSection
-          title="Namespaces"
+          title="命名空间"
           type="namespace"
           nodes={groups.namespaces}
         />

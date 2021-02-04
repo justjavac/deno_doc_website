@@ -30,7 +30,7 @@ function Home() {
   return (
     <>
       <Head>
-        <title>deno 文档</title>
+        <title>deno doc 中文版</title>
         <meta
           name="description"
           content="Deno 文档查看器，可以自动生成 Deno 文档。"

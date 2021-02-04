@@ -90,7 +90,7 @@ export function ClassCard({
           {constructors.length > 0 ? (
             <div className="mt-2">
               <p className="font-medium text-md text-gray-800 dark:text-gray-300">
-                Constructors
+                构造函数
               </p>
               {constructors.map((node) => {
                 return (
@@ -105,7 +105,7 @@ export function ClassCard({
           {realProperties.length > 0 ? (
             <div className="mt-2">
               <p className="font-medium text-md text-gray-800 dark:text-gray-300">
-                Properties
+                属性
               </p>
               {realProperties.map((node) => {
                 return (
@@ -126,7 +126,7 @@ export function ClassCard({
           {realMethods.length > 0 ? (
             <div className="mt-2">
               <p className="font-medium text-md text-gray-800 dark:text-gray-300">
-                Methods
+                方法
               </p>
               {realMethods.map((node) => {
                 return (
@@ -152,7 +152,7 @@ export function ClassCard({
           {indexSignatures.length > 0 ? (
             <div className="mt-2">
               <p className="font-medium text-md text-gray-800 dark:text-gray-300">
-                Index Signatures
+                索引签名
               </p>
               {indexSignatures.map((node) => {
                 return (
@@ -169,7 +169,7 @@ export function ClassCard({
           {staticProperties.length > 0 ? (
             <div className="mt-2">
               <p className="font-medium text-md text-gray-800 dark:text-gray-300">
-                Static Properties
+                静态属性
               </p>
               {staticProperties.map((node) => {
                 return (
@@ -190,7 +190,7 @@ export function ClassCard({
           {staticMethods.length > 0 ? (
             <div className="mt-2">
               <p className="font-medium text-md text-gray-800 dark:text-gray-300">
-                Static Methods
+                静态方法
               </p>
               {staticMethods.map((node) => {
                 return (

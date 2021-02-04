@@ -18,7 +18,7 @@ const Footer = (props: { simple?: boolean }) => (
             href="https://deno.land/"
             className="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
           >
-            Home
+            首页
           </a>
         </div>{" "}
         <div className="px-5 py-2">
@@ -26,13 +26,13 @@ const Footer = (props: { simple?: boolean }) => (
             href="https://deno.land/manual"
             className="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
           >
-            Manual
+            手册
           </a>
         </div>
         <div className="px-5 py-2">
           <Link href="/about">
             <a className="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
-              About
+              关于
             </a>
           </Link>
         </div>

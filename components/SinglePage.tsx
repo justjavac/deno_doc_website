@@ -89,7 +89,7 @@ export const SinglePage = memo(
                 </a>
                 {hasNone ? (
                   <h1 className="pt-4 pb-1 text-xl text-gray-900 dark:text-gray-200">
-                    This module has no exports that are recognized by deno doc.
+                    此模块没有导出任何文档。
                   </h1>
                 ) : (
                   <CardList groups={groups} />
@@ -111,7 +111,7 @@ export const CardList = memo(
           <div>
             {!nested && (
               <div className="leading-tight text-gray-900 dark:text-gray-200 font-bold text-2xl mt-8 mb-4">
-                Functions
+                函数
               </div>
             )}
             <div>
@@ -129,7 +129,7 @@ export const CardList = memo(
           <div>
             {!nested && (
               <div className="leading-tight text-gray-900 dark:text-gray-200 font-bold text-2xl mt-8 mb-4">
-                Variables
+                变量
               </div>
             )}
             <div>
@@ -147,7 +147,7 @@ export const CardList = memo(
           <div>
             {!nested && (
               <div className="leading-tight text-gray-900 dark:text-gray-200 font-bold text-2xl mt-8 mb-4">
-                Classes
+                类
               </div>
             )}
             <div>
@@ -165,7 +165,7 @@ export const CardList = memo(
           <div>
             {!nested && (
               <div className="leading-tight text-gray-900 dark:text-gray-200 font-bold text-2xl mt-8 mb-4">
-                Enums
+                枚举
               </div>
             )}
             <div>
@@ -183,7 +183,7 @@ export const CardList = memo(
           <div>
             {!nested && (
               <div className="leading-tight text-gray-900 dark:text-gray-200 font-bold text-2xl mt-8 mb-4">
-                Interfaces
+                接口
               </div>
             )}
             <div>
@@ -201,7 +201,7 @@ export const CardList = memo(
           <div>
             {!nested && (
               <div className="leading-tight text-gray-900 dark:text-gray-200 font-bold text-2xl mt-8 mb-4">
-                Type Aliases
+                类型别名
               </div>
             )}
             <div>
@@ -219,7 +219,7 @@ export const CardList = memo(
           <div>
             {!nested && (
               <div className="leading-tight text-gray-900 dark:text-gray-200 font-bold text-2xl mt-8 mb-4">
-                Namespaces
+                命名空间
               </div>
             )}
             <div>

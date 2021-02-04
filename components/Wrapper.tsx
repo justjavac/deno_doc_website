@@ -136,13 +136,13 @@ export function Wrapper(props: {
                       className="text-sm cursor-pointer link"
                       onClick={props.forceReload}
                     >
-                      Refresh now
+                      立即刷新
                     </a>
                   </div>
                 ) : null}
                 <p className="mt-2 text-sm">
                   <Link href="/about">
-                    <a className="link">About doc.deno.land</a>
+                    <a className="link">关于 doc.deno.land</a>
                   </Link>
                 </p>
               </header>

@@ -59,16 +59,15 @@ export const Documentation = ({
   }, [data]);
 
   if (error) {
-    let title =
-      "A internal server error occured while generating the documentation.";
+    let title = "生成文档时发生内部错误。";
     let details = error;
 
     if (error && (error.includes("404") || error.includes("dns"))) {
       const file = (error.match(/Import '(.*)' failed/) ?? [])[1] ?? "";
-      title = "404 - A source file could not be found.";
-      details = `Please check that the ${
-        file ? `file '${file}'` : "entrypoint and its dependents are"
-      }  available on the public internet.`;
+      title = "404 - 源文件不存在。";
+      details = `请检查 ${
+        file ? `文件 '${file}' ` : "入口文件以及相关依赖"
+      }是否存在，并可以在互联网上公开访问。`;
     }
 
     return (
@@ -78,13 +77,13 @@ export const Documentation = ({
           {details}
         </div>
         <Link href="/">
-          <a className="mt-4 text-xl link">Go back home</a>
+          <a className="mt-4 text-xl link">返回首页</a>
         </Link>
         <a
-          href="https://github.com/denoland/doc_website/issues"
+          href="https://github.com/justjavac/deno_doc_website/issues"
           className="mt-5 text-sm link"
         >
-          Report Issue
+          提交 Issue
         </a>
       </div>
     );

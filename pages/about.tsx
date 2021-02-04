@@ -8,15 +8,15 @@ function About() {
   return (
     <div className="bg-white dark:bg-light-black-800">
       <Head>
-        <title>About deno doc</title>
+        <title>关于 deno doc</title>
         <meta
           name="description"
-          content="About deno doc, a documentation generator for Deno."
+          content="关于 deno doc，用于生成和查看 Deno 文档"
         />
       </Head>
       <Header />
       <div className="max-w-screen-md mx-auto pt-4 pb-12 sm:pb-16 md:pb-20 sm:py-6 px-4 sm:px-6 md:px-8 text-gray-900 dark:text-gray-200">
-        <h2 className="text-3xl font-bold tracking-tight">About</h2>
+        <h2 className="text-3xl font-bold tracking-tight">关于</h2>
         <div className="text-base leading-6 pt-4 grid row-gap-3">
           <p>
             doc.deno.land hosts documentation for TypeScript and ES module files
@@ -24,11 +24,11 @@ function About() {
             with URLs.
           </p>
           <p className="mt-3">
-            The source code is available on{" "}
-            <a href="https://github.com/denoland/doc_website" className="link">
+            源码托管在{" "}
+            <a href="https://github.com/justjavac/deno_doc_website" className="link">
               GitHub
             </a>
-            .
+            {" "}上。
           </p>
         </div>
         <div className="mt-12">

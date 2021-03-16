@@ -51,13 +51,13 @@ const Header = () => {
         </div>
         <div className="hidden lg:flex md:ml-10 items-end">
           <a
-            href="https://deno.land/"
+            href="https://deno-cn.vercel.app"
             className="font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 transition duration-150 ease-in-out"
           >
             首页
           </a>
           <a
-            href="https://deno.land/manual"
+            href="https://deno-cn.vercel.app/manual"
             className="ml-10 font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 transition duration-150 ease-in-out"
           >
             手册
@@ -142,13 +142,13 @@ const Header = () => {
               </div>
               <div className="px-2 pt-4 pb-3">
                 <a
-                  href="https://deno.land/"
+                  href="https://deno-cn.vercel.app"
                   className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 hover:bg-gray-50 dark:hover:bg-light-black-900 focus:outline-none focus:text-gray-900 focus:bg-gray-50 dark:focus:bg-light-black-900 transition duration-150 ease-in-out"
                 >
                   首页
                 </a>
                 <a
-                  href="https://deno.land/manual"
+                  href="https://deno-cn.vercel.app/manual"
                   className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 hover:bg-gray-50 dark:hover:bg-light-black-900 focus:outline-none focus:text-gray-900 focus:bg-gray-50 dark:focus:bg-light-black-900 transition duration-150 ease-in-out"
                 >
                   手册

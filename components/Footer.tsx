@@ -15,7 +15,7 @@ const Footer = (props: { simple?: boolean }) => (
       <nav className="-mx-5 -my-2 flex flex-wrap justify-center">
         <div className="px-5 py-2">
           <a
-            href="https://deno.land/"
+            href="https://deno-cn.vercel.app"
             className="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
           >
             首页
@@ -23,7 +23,7 @@ const Footer = (props: { simple?: boolean }) => (
         </div>{" "}
         <div className="px-5 py-2">
           <a
-            href="https://deno.land/manual"
+            href="https://deno-cn.vercel.app/manual"
             className="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
           >
             手册

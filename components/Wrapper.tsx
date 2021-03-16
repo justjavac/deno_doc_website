@@ -99,7 +99,7 @@ export function Wrapper(props: {
                       ) : null}
                       <p className="mt-2 text-sm">
                         <Link href="/about">
-                          <a className="link">About doc.deno.land</a>
+                          <a className="link">About doc.deno.js.cn</a>
                         </Link>
                       </p>
                     </header>
@@ -142,7 +142,7 @@ export function Wrapper(props: {
                 ) : null}
                 <p className="mt-2 text-sm">
                   <Link href="/about">
-                    <a className="link">关于 doc.deno.land</a>
+                    <a className="link">关于 doc.deno.js.cn</a>
                   </Link>
                 </p>
               </header>

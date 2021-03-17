@@ -19,16 +19,18 @@ function About() {
         <h2 className="text-3xl font-bold tracking-tight">关于</h2>
         <div className="text-base leading-6 pt-4 grid row-gap-3">
           <p>
-            doc.deno.js.cn hosts documentation for TypeScript and ES module files
-            available on the public internet that use ES module import syntax
-            with URLs.
+            doc.deno.js.cn 是 TypeScript 和 ES 模块的文档托管服务，任何使用 ES
+            模块导入语法的文件都可以使用 doc.deno.js.cn 生成文档。
           </p>
           <p className="mt-3">
-            源码托管在{" "}
-            <a href="https://github.com/justjavac/deno_doc_website" className="link">
+            本站是官方 doc.deno.land 的镜像站，源码托管在{" "}
+            <a
+              href="https://github.com/justjavac/deno_doc_website"
+              className="link"
+            >
               GitHub
-            </a>
-            {" "}上。
+            </a>{" "}
+            上。
           </p>
         </div>
         <div className="mt-12">
@@ -36,18 +38,16 @@ function About() {
             className="text-2xl font-semibold tracking-tight"
             id="adding-a-module-to-deno-doc"
           >
-            Adding a module to deno doc
+            向 deno doc 添加模块
           </h3>
           <p className="mt-2">
-            doc.deno.js.cn dynamically pulls a module from the specified URL and
-            generates documentation for it when it is first viewed. You do not
-            need to manually register a module on doc.deno.js.cn to make it
-            available.
+            doc.deno.js.cn 动态地从指定的 URL
+            中提取模块，并在首次查看时为其生成文档。您不需要在 doc.deno.js.cn
+            上手动注册模块。
           </p>
           <p className="mt-3">
-            doc.deno.js.cn caches generated documentation for 24 hours. After
-            this time the generated documentation is removed from the cache and
-            the module is treated as if it had never been requested before.
+            生成的文档将在 doc.deno.js.cn 缓存 24
+            小时。在此时间之后，生成的文档从缓存中删除，并且模块被视为以前从未请求过。
           </p>
         </div>
         <div className="mt-12">
@@ -55,17 +55,15 @@ function About() {
             className="text-2xl font-semibold tracking-tight"
             id="removing-a-module-from-deno-doc"
           >
-            Removing a module from deno doc
+            从 deno doc 删除模块
           </h3>
           <p className="pt-2">
-            You can not manually remove modules from doc.deno.js.cn as they
-            expire automatically after 24 hours. If there is an urgent reason to
-            remove a module from the cache, please reach out to one of the Deno
-            maintainers on the{" "}
+            由于模块在服务器会缓存 24 小时，因此在缓存过期之前，无法手动从
+            doc.deno.js.cn 中删除模块。如果有紧急原因从缓存中删除一个模块，请在{" "}
             <a href="https://discord.gg/TGMHGv6" className="link">
               Deno discord
-            </a>
-            .
+            </a>{" "}
+            联系 Deno 维护者之一。
           </p>
         </div>
         <div className="mt-12">
@@ -130,7 +128,10 @@ function About() {
           </h3>
           <p className="pt-2">
             On our{" "}
-            <a href="https://github.com/justjavac/deno_doc_website" className="link">
+            <a
+              href="https://github.com/justjavac/deno_doc_website"
+              className="link"
+            >
               GitHub
             </a>{" "}
             you can open an issue to share any ideas, feature requests,

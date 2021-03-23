@@ -76,7 +76,7 @@ function Home() {
                   if (url.length > 0) navigate();
                 }}
               >
-                <span className="mr-2 whitespace-nowrap">查看</span>{" "}
+                <span className="mr-2 whitespace-no-wrap">查看</span>{" "}
                 <svg
                   className="h-5 w-5 text-gray-400 dark:text-gray-300"
                   viewBox="0 0 20 20"

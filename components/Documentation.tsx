@@ -33,7 +33,7 @@ export const Documentation = ({
     [loadCount],
     () =>
       getData(
-        "https://github.com/denoland/deno/releases/latest/download/lib.deno.d.ts",
+        "https://doc-proxy.deno.dev/builtin/stable",
         "",
         loadCount > 0
       ).catch((err) => {
@@ -73,9 +73,9 @@ export const Documentation = ({
     return (
       <div className="flex flex-col items-center justify-center h-full p-4 text-center bg-white dark:bg-light-black-800">
         <div className="text-3xl text-gray-800 dark:text-gray-200">{title}</div>
-        <div className="mt-2 text-lg text-gray-800 dark:text-gray-200">
+        <pre className="mt-2 text-lg text-gray-800 dark:text-gray-200 text-left bg-gray-100 dark:bg-light-black-600 p-2 rounded-lg w-11/12 max-w-5xl overflow-auto">
           {details}
-        </div>
+        </pre>
         <Link href="/">
           <a className="mt-4 text-xl link">返回首页</a>
         </Link>
